@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.topHeader .icons-panel{
+    margin-left: 4rem;
+    color: grey;
+}
+
+.topHeader button{
+    margin-right: 4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px ;
+    border: 0px;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.logo{
+    width: 25%;
+}
+
+.logo h1{
+    font-family: 'Monoton', sticky;
+    text-align: center;
+}
+
+header .searchBox{
+    border-radius: 10px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    border: 1px solid rgb(209, 101, 101);
+    border-radius: 10px;
+}
+
+header input{
+    width: 90%;
+    height: 5vh;
+    border: 0px;
+    color: grey;
+    padding: 0.5rem 0.5rem;
+}
+.user-panel {
+    width: 25%;
+    text-align: center
+}
+
+.fa-user, .fa-heart{
+    font-weight: normal;
+}
+
+.user-panel .fa-solid{
+    padding-right: 0.5rem;
+    color: black;
+}
+
+header{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+nav{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.trendingItem{
+    background: url(../images/banners/banner-1.jpg) no-repeat right;
+    height: 50vh;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 10px;
+}
+
+.textBox{
+    margin: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textBox h3{
+    color: rgb(235, 116, 181);
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 28px;
+}
+
+.textBox h1{
+    font-size: 34px;
+    margin-top: 2rem;
+    width: 40%;
+}
+
+.textBox h4{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.textBox button{
+    width: 20%;
+    padding: 1rem 1rem;
+    font-size: 12px;
+    background-color: rgb(250, 166, 180);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 2rem;
+
+}
+
+main{
+    width: 100%;
+}
+
+main h2{
+    font-size: 28px;
+    margin-left:  3rem;
+    margin-top: 1rem;
+}
+
+.grid-panel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+}
+
+.products img{
+    width: 80%;
+}
+
+.product-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+.price{
+    display: inline-block;
+    flex-direction: row;
+}
+
+.products h4{
+    color: rgb(252, 147, 165);
+}
+
+.rating{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.rating .fa-solid{
+    color: gold;
+}
+
+.rating .fa-regular{
+    font-weight: bold;
+    color: grey;
+}
+
+.price h2{
+    font-size: 12px;
+}
+.price h3{
+    font-size: 12px;
+}
+
+.add-button button{
+    padding: 0.5rem 0.5rem;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    border: 0px;  
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    background-color: black;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+}
+
+.box1, .box2, .box3, .box4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h1{
+    padding-top: 1rem;
+    font-size: 16px;
+    border-bottom: 5px solid pink;
+    color: antiquewhite;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons-bar{
+    padding-top: 1rem;
+    background-color: black;
+    text-align: center;
+}
+
+.icons-bar h3{
+    font-size: 12px;
+    color: grey;
+}
+
+.menu-categories{
+    position: relative;
+}
+.menu-categories:hover .submenu{
+    display: block;
+    opacity: 1;
+    transition:opacity 0.5s ease;
+}
+
+.submenu{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 5;
+    opacity: 0;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding-left: 2rem;
+}
+.bannerBox {
+    width: 100%;
+}
+
+.bannerBox img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.submenu a{
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .trendingItem{
+        display: none;
+    }
+}
