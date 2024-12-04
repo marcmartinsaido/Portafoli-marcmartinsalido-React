@@ -1,5 +1,5 @@
-import Skills from "./Skills"
-import Newsletter from "../page/newsletters"
+import Skills from "./Skills";
+import Newsletter from "./newsletters";
 
 export default function Main() {
     return (
@@ -48,7 +48,7 @@ export default function Main() {
                 </div>
             </div>
             <Skills />
-            <Newsletter/>
+            <Newsletter />
         </main>
     );
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import proyecto1 from "../assets/proyecto1.png";
 import obras1 from "../assets/obras1.png";
 

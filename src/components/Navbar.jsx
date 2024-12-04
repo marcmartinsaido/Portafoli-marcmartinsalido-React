@@ -22,6 +22,12 @@ export default function Navbar() {
             >
                 Proyectos
             </Link>
+            <Link
+                to="/newsletterpage"
+                className={location.pathname === "/newsletterpage" ? "activate" : ""}
+            >
+                Newsletter
+            </Link>
         </nav>
     );
 }

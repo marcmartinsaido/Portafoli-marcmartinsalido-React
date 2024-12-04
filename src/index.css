@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: 'Press Start 2P', sans-serif;
   background-color: #121212;
@@ -879,5 +880,90 @@ footer p {
 
   .main-nav-center {
     padding: 15px;
+  }
+}
+
+.Proyectos-Page {
+  background-color: #121212;
+  padding: 50px 20px;
+  color: white;
+}
+
+.title-newsletter h1 {
+  font-size: 2.5rem;
+  color: hsl(46, 100%, 50%);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info-newsletter p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.anuncios-grid3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.anuncio {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.anuncio h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.anuncio p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #aaa;
+}
+
+.anuncio:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+  .anuncios-grid3 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title-newsletter h1 {
+    font-size: 2rem;
+  }
+
+  .info-newsletter p {
+    font-size: 0.9rem;
+  }
+
+  .anuncio {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-newsletter h1 {
+    font-size: 1.8rem;
+  }
+
+  .info-newsletter p {
+    font-size: 0.8rem;
   }
 }
